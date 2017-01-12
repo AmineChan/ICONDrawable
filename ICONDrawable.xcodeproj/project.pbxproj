@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1195016D1E1F6EC2000C6EDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195016C1E1F6EC2000C6EDB /* AppDelegate.m */; };
+		119501701E1F6EC2000C6EDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195016F1E1F6EC2000C6EDB /* main.m */; };
+		119501731E1F6EC2000C6EDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 119501721E1F6EC2000C6EDB /* ViewController.m */; };
+		119501751E1F6EC2000C6EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119501741E1F6EC2000C6EDB /* Assets.xcassets */; };
+		119501781E1F6EC2000C6EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119501761E1F6EC2000C6EDB /* Main.storyboard */; };
+		119501821E1F71E2000C6EDB /* Drawable4iOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 119501801E1F71E2000C6EDB /* Drawable4iOSViewController.m */; };
+		119501831E1F71E2000C6EDB /* Drawable4iOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119501811E1F71E2000C6EDB /* Drawable4iOSViewController.xib */; };
+		119501871E1F7201000C6EDB /* Drawable4AndroidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 119501851E1F7201000C6EDB /* Drawable4AndroidViewController.m */; };
+		119501881E1F7201000C6EDB /* Drawable4AndroidViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119501861E1F7201000C6EDB /* Drawable4AndroidViewController.xib */; };
+		1195018B1E1F7432000C6EDB /* NSImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195018A1E1F7432000C6EDB /* NSImage+Addition.m */; };
+		1195018E1E1F7441000C6EDB /* DragDropTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195018D1E1F7441000C6EDB /* DragDropTableView.m */; };
+		119501901E1F7592000C6EDB /* cellDel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1195018F1E1F7592000C6EDB /* cellDel.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		119501681E1F6EC2000C6EDB /* ICONDrawable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICONDrawable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1195016B1E1F6EC2000C6EDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1195016C1E1F6EC2000C6EDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1195016F1E1F6EC2000C6EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		119501711E1F6EC2000C6EDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		119501721E1F6EC2000C6EDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		119501741E1F6EC2000C6EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		119501771E1F6EC2000C6EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		119501791E1F6EC2000C6EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1195017F1E1F71E2000C6EDB /* Drawable4iOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable4iOSViewController.h; sourceTree = "<group>"; };
+		119501801E1F71E2000C6EDB /* Drawable4iOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drawable4iOSViewController.m; sourceTree = "<group>"; };
+		119501811E1F71E2000C6EDB /* Drawable4iOSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Drawable4iOSViewController.xib; sourceTree = "<group>"; };
+		119501841E1F7201000C6EDB /* Drawable4AndroidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable4AndroidViewController.h; sourceTree = "<group>"; };
+		119501851E1F7201000C6EDB /* Drawable4AndroidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drawable4AndroidViewController.m; sourceTree = "<group>"; };
+		119501861E1F7201000C6EDB /* Drawable4AndroidViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Drawable4AndroidViewController.xib; sourceTree = "<group>"; };
+		119501891E1F7432000C6EDB /* NSImage+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Addition.h"; sourceTree = "<group>"; };
+		1195018A1E1F7432000C6EDB /* NSImage+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Addition.m"; sourceTree = "<group>"; };
+		1195018C1E1F7441000C6EDB /* DragDropTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropTableView.h; sourceTree = "<group>"; };
+		1195018D1E1F7441000C6EDB /* DragDropTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropTableView.m; sourceTree = "<group>"; };
+		1195018F1E1F7592000C6EDB /* cellDel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellDel.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		119501651E1F6EC2000C6EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1195015F1E1F6EC2000C6EDB = {
+			isa = PBXGroup;
+			children = (
+				1195016A1E1F6EC2000C6EDB /* ICONDrawable */,
+				119501691E1F6EC2000C6EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		119501691E1F6EC2000C6EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				119501681E1F6EC2000C6EDB /* ICONDrawable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1195016A1E1F6EC2000C6EDB /* ICONDrawable */ = {
+			isa = PBXGroup;
+			children = (
+				1195016B1E1F6EC2000C6EDB /* AppDelegate.h */,
+				1195016C1E1F6EC2000C6EDB /* AppDelegate.m */,
+				119501711E1F6EC2000C6EDB /* ViewController.h */,
+				119501721E1F6EC2000C6EDB /* ViewController.m */,
+				1195017F1E1F71E2000C6EDB /* Drawable4iOSViewController.h */,
+				119501801E1F71E2000C6EDB /* Drawable4iOSViewController.m */,
+				119501811E1F71E2000C6EDB /* Drawable4iOSViewController.xib */,
+				119501841E1F7201000C6EDB /* Drawable4AndroidViewController.h */,
+				119501851E1F7201000C6EDB /* Drawable4AndroidViewController.m */,
+				119501861E1F7201000C6EDB /* Drawable4AndroidViewController.xib */,
+				119501891E1F7432000C6EDB /* NSImage+Addition.h */,
+				1195018A1E1F7432000C6EDB /* NSImage+Addition.m */,
+				1195018C1E1F7441000C6EDB /* DragDropTableView.h */,
+				1195018D1E1F7441000C6EDB /* DragDropTableView.m */,
+				119501741E1F6EC2000C6EDB /* Assets.xcassets */,
+				119501761E1F6EC2000C6EDB /* Main.storyboard */,
+				119501791E1F6EC2000C6EDB /* Info.plist */,
+				1195018F1E1F7592000C6EDB /* cellDel.png */,
+				1195016E1E1F6EC2000C6EDB /* Supporting Files */,
+			);
+			path = ICONDrawable;
+			sourceTree = "<group>";
+		};
+		1195016E1E1F6EC2000C6EDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1195016F1E1F6EC2000C6EDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		119501671E1F6EC2000C6EDB /* ICONDrawable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1195017C1E1F6EC2000C6EDB /* Build configuration list for PBXNativeTarget "ICONDrawable" */;
+			buildPhases = (
+				119501641E1F6EC2000C6EDB /* Sources */,
+				119501651E1F6EC2000C6EDB /* Frameworks */,
+				119501661E1F6EC2000C6EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICONDrawable;
+			productName = ICONDrawable;
+			productReference = 119501681E1F6EC2000C6EDB /* ICONDrawable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		119501601E1F6EC2000C6EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = taide;
+				TargetAttributes = {
+					119501671E1F6EC2000C6EDB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N6AD6FZ8WP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 119501631E1F6EC2000C6EDB /* Build configuration list for PBXProject "ICONDrawable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1195015F1E1F6EC2000C6EDB;
+			productRefGroup = 119501691E1F6EC2000C6EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				119501671E1F6EC2000C6EDB /* ICONDrawable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		119501661E1F6EC2000C6EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119501831E1F71E2000C6EDB /* Drawable4iOSViewController.xib in Resources */,
+				119501881E1F7201000C6EDB /* Drawable4AndroidViewController.xib in Resources */,
+				119501751E1F6EC2000C6EDB /* Assets.xcassets in Resources */,
+				119501901E1F7592000C6EDB /* cellDel.png in Resources */,
+				119501781E1F6EC2000C6EDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		119501641E1F6EC2000C6EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1195018B1E1F7432000C6EDB /* NSImage+Addition.m in Sources */,
+				1195018E1E1F7441000C6EDB /* DragDropTableView.m in Sources */,
+				119501731E1F6EC2000C6EDB /* ViewController.m in Sources */,
+				119501701E1F6EC2000C6EDB /* main.m in Sources */,
+				1195016D1E1F6EC2000C6EDB /* AppDelegate.m in Sources */,
+				119501821E1F71E2000C6EDB /* Drawable4iOSViewController.m in Sources */,
+				119501871E1F7201000C6EDB /* Drawable4AndroidViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		119501761E1F6EC2000C6EDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				119501771E1F6EC2000C6EDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1195017A1E1F6EC2000C6EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1195017B1E1F6EC2000C6EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1195017D1E1F6EC2000C6EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N6AD6FZ8WP;
+				INFOPLIST_FILE = ICONDrawable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ca.ICONDrawable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1195017E1E1F6EC2000C6EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N6AD6FZ8WP;
+				INFOPLIST_FILE = ICONDrawable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ca.ICONDrawable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		119501631E1F6EC2000C6EDB /* Build configuration list for PBXProject "ICONDrawable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1195017A1E1F6EC2000C6EDB /* Debug */,
+				1195017B1E1F6EC2000C6EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1195017C1E1F6EC2000C6EDB /* Build configuration list for PBXNativeTarget "ICONDrawable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1195017D1E1F6EC2000C6EDB /* Debug */,
+				1195017E1E1F6EC2000C6EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 119501601E1F6EC2000C6EDB /* Project object */;
+}
